@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-    <title>Laravel</title>
+    <title>Welcome</title>
 </svelte:head>
 
 <div

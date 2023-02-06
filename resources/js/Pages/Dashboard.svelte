@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>Laravel</title>
+    <title>Dashboard</title>
 </svelte:head>
 
 <AuthenticatedLayout>
