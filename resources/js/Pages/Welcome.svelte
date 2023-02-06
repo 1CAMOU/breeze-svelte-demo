@@ -2,7 +2,6 @@
     import { Link, page } from '@inertiajs/svelte';
     import { route } from "@/ziggy";
 
-    export let title;
     export let canLogin;
     export let canRegister;
     export let laravelVersion;
@@ -10,7 +9,7 @@
 </script>
 
 <svelte:head>
-    <title>{$title ? `${$title} - Laravel` : 'Laravel'}</title>
+    <title>Laravel</title>
 </svelte:head>
 
 <div
