@@ -40,7 +40,6 @@
 
     {#if open}
     <div class={`absolute z-50 mt-2 rounded-md shadow-lg ${ widthClass + " " + alignmentClasses }`}
-         style="display: none"
          on:click={() => open = false}
     >
         <div class={`rounded-md ring-1 ring-black ring-opacity-5 ${contentClasses}`}>
