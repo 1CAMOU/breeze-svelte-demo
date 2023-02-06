@@ -1,9 +1,9 @@
 <script>
     import { onMount, onDestroy } from 'svelte';
 
-    export let show: false;
-    export let maxWidth: "2xl";
-    export let closeable: true;
+    export let show = false;
+    export let maxWidth = "2xl";
+    export let closeable = true;
 
     const emit = new CustomEvent(['close']);
 
