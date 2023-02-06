@@ -6,6 +6,9 @@
     import { useForm } from '@inertiajs/svelte';
     import { route } from "@/ziggy";
 
+    let clazz;
+    export { clazz as class };
+
     let passwordInput = null;
     let currentPasswordInput = null;
 
@@ -33,7 +36,7 @@
     };
 </script>
 
-<section>
+<section class={clazz}>
     <header>
         <h2 class="text-lg font-medium text-gray-900 dark:text-gray-100">Update Password</h2>
 

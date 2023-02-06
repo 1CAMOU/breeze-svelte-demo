@@ -1,6 +1,6 @@
 <script>
-    export let value;
-    export let name;
+    export let value = undefined;
+    export let name = undefined;
     export let id = name;
 
     let input;

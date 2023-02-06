@@ -1,6 +1,6 @@
 <script>
-    export let onClick;
-    export let processing;
+    export let onClick = undefined;
+    export let processing = undefined;
     export let type = "submit";
     let input;
     export const focus = () => input.focus();

@@ -1,8 +1,10 @@
 <script>
-    export let value;
+    export let value = undefined;
+    let forInput;
+    export { forInput as for };
 </script>
 
-<label class="block font-medium text-sm text-gray-700 dark:text-gray-300">
+<label {forInput} class="block font-medium text-sm text-gray-700 dark:text-gray-300">
     {#if value}
         <span>{value}</span>
     {:else}

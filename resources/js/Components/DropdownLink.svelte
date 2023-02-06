@@ -1,9 +1,9 @@
 <script>
     import { Link } from '@inertiajs/svelte';
 
-    export let href;
-    export let method;
-    export let as;
+    export let href = undefined;
+    export let method = undefined;
+    export let as = undefined;
 </script>
 
 <Link

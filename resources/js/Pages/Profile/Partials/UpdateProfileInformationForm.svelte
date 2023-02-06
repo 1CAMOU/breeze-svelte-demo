@@ -6,8 +6,11 @@
     import { Link, useForm, page } from '@inertiajs/svelte';
     import { route } from "@/ziggy";
 
-    export let mustVerifyEmail;
-    export let status;
+    export let mustVerifyEmail = undefined;
+    export let status = undefined;
+
+    let clazz;
+    export { clazz as class };
 
     const user = $page.props.auth.user;
 
@@ -17,7 +20,7 @@
     });
 </script>
 
-<section>
+<section class={clazz}>
     <header>
         <h2 class="text-lg font-medium text-gray-900 dark:text-gray-100">Profile Information</h2>
 

@@ -1,9 +1,9 @@
 <script>
-    export let value;
-    export let name;
+    export let value = undefined;
+    export let name = undefined;
     export let id = name;
-    export let autoComplete;
-    export let required;
+    export let autoComplete = undefined;
+    export let required = undefined;
     export let type = "text";
 
     let input;

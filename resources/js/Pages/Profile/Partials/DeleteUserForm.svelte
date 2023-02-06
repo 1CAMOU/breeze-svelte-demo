@@ -9,6 +9,9 @@
     import { afterUpdate } from "svelte";
     import { route } from "@/ziggy";
 
+    let clazz;
+    export { clazz as class };
+
     let confirmingUserDeletion = false;
     let passwordInput = null;
 
@@ -38,7 +41,7 @@
     };
 </script>
 
-<section class="space-y-6">
+<section class="space-y-6 {clazz}">
     <header>
         <h2 class="text-lg font-medium text-gray-900 dark:text-gray-100">Delete Account</h2>
 
